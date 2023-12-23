@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 .navbar {
@@ -13,7 +13,7 @@
 
 .brand-logo {
     height: 150px;
-    margin-left: 73px;
+    margin-left: 80px;
     padding-right: 10px;
     position: absolute;
     top: -40px;
@@ -57,11 +57,93 @@
     background-color: #222539;
 }
 
-a{
+
+.movies-link{
     text-decoration: none;
     color: white;
-    font-size: 15px;
+    font-size: 14px;
     position: absolute;
     top: 12px;
     left: 100px;
+}
+
+.stream-link{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    top: 12px;
+    left: 165px;
+}
+
+.events-link{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    top: 12px;
+    left: 230px;
+}
+
+.plays-link{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    top: 12px;
+    left: 295px;
+}
+
+.sports-link{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    top: 12px;
+    left: 350px;
+}
+
+.activities-link{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    top: 12px;
+    left: 415px;
+}
+
+.listyourshow-link{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    top: 12px;
+    left: 1100px;
+}
+
+.corporates-link{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    top: 12px;
+    left: 1195px;
+}
+
+.offers-link{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    top: 12px;
+    left: 1280px;
+}
+
+.giftcards-link{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    top: 12px;
+    left: 1340px;
 }

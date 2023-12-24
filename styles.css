@@ -5,6 +5,12 @@
     font-family: "Roboto", sans-serif;
 }
 
+.prevent-select {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
 .navbar {
     background-color: #333545;
     width: 100%;
@@ -242,4 +248,89 @@
     position: absolute;
     top:575px;
     right: 150px;
+}
+
+#rec-movies{
+    font-size:24px;
+    position:absolute;
+    top:700px;
+    left: 165px
+}
+
+.dunki-pos{
+    height: 357px;
+    width: 210px;
+    border-radius: 5px;
+    position:absolute;
+    top: 750px;
+    left:160px;
+}
+
+.salaar-pos{
+    height: 357px;
+    width: 210px;
+    border-radius: 5px;
+    position:absolute;
+    top: 750px;
+    left:410px;
+}
+
+.aquaman-pos{
+    height: 357px;
+    width: 210px;
+    border-radius: 5px;
+    position:absolute;
+    top: 750px;
+    left:660px;
+}
+
+.animal-pos{
+    height: 357px;
+    width: 210px;
+    border-radius: 5px;
+    position:absolute;
+    top: 750px;
+    left:910px;
+}
+
+.sam-pos{
+    height: 357px;
+    width: 210px;
+    border-radius: 5px;
+    position:absolute;
+    top: 750px;
+    left:1160px;
+}
+
+.dunki-text{
+    text-decoration: none;
+    color: #222222;
+    position: absolute;
+    top: 1120px;
+    left:165px;
+}
+
+.dunki-text:hover{
+    text-decoration: none;
+    font-size: 18px;
+    color: #222222;
+    position: absolute;
+    top: 1120px;
+    left:165px;
+}
+
+.dunki-genre{
+    text-decoration: none;
+    color: #666666;
+    position: absolute;
+    top: 1150px;
+    left:165px;
+}
+
+.dunki-genre:hover{
+    text-decoration: none;
+    color: #666666;
+    position: absolute;
+    top: 1150px;
+    left:165px;
 }
